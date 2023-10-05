@@ -30,7 +30,7 @@
 	处理视频：
 	data/scene文件夹调用colmap（处理视频）:python /home/user/software/instant-ngp/scripts/colmap2nerf.py --video_in <video_name>.mp4 --video_fps 1 --run_colmap --aabb_scale 16
 	
-	输出图片：python scripts/run.py --scene data/buildingsfromvideofog --mode nerf --load_snapshot data/buildingsfromvideofog/base.msgpack --screenshot_transforms data/buildingsfromvideofog/transforms.json (--screenshot_frames 1) --screenshot_dir data/buildingsfromvideofog/screenshot --width 2048 --height 2
+	输出图片：python scripts/run.py --scene data/buildingsfromvideofog --mode nerf --load_snapshot data/buildingsfromvideofog/base.msgpack --screenshot_transforms data/buildingsfromvideofog/transforms.json (--screenshot_frames 1) --screenshot_dir data/buildingsfromvideofog/screenshot --width 2048 --height 2048
 	–scene 场景的路径
 	–mode 模式，选nerf即可
 	–load_snapshot 保存的训练好的模型
